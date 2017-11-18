@@ -1,0 +1,40 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   
+% temas de moderncv
+\moderncvstyle{casual}                        
+% las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle','banking'
+\moderncvcolor{green}                          
+% opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' 'black'
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}                  
+\usepackage[scale=0.75]{geometry}
+
+\name{Juan Manuel}{Romero}
+\photo[64pt][0.4pt]{img/photo}
+\input{tex/contacto}                         
+\begin{document}
+\maketitle
+
+\input{tex/perfil}
+\input{tex/datos_personales}
+\input{tex/idiomas}
+\input{tex/estudios}
+
+\section{Conocimientos Profesionales}
+\input{tex/programacion}
+\input{tex/databases}
+\input{tex/ingenieria_software}
+\input{tex/servidores}
+\input{tex/ides}
+\input{tex/sistemas_operativos}
+\input{tex/miscelaneos}
+
+\section{Experiencia Profesional}
+\input{tex/experiencia}
+
+\section{Proyectos Realizados}
+\input{tex/proyectos}
+
+\section{Referencias}
+\input{tex/referencias}
+      
+\end{document}
